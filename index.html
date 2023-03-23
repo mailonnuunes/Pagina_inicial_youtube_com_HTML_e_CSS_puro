@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem youtube com CSS gride</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="querys.css">
+</head>
+<body>
+    <header>
+        <div class="menuLadoEsquerdo">
+            <img  src="./img/hamburguer.png" alt="">
+            <img class="iconYoutube" src="./img/logo_youtube.png" alt="">
+        </div>
+        <div class="menuMeio">
+                <input type="text" placeholder="Search">
+                <button type="submit"><img src="./img/lupa.png" alt="lupa"></button>
+                <img src="./img/mic.png" alt="">
+        </div>
+        <div class="menuLadoDireito">
+                <img id="tresPontos" src="./img/3_pontos.png" alt="">
+                <button class="btnSign_in" ><img src="./img/foto_sign_in.png" alt="foto do usuário"> Sign in</button>
+            </div>
+        </div>
+    </header>
+    <article>
+        <aside>
+            <button class="btnsLateral btnHouse"><img class="imgBtn" src="./img/btnCasa.png" alt="">Home</button>
+            <button class="btnsLateral"><img class="imgBtn" src="./img/btnShorts.png" alt="">Shorts</button>
+            <button class="btnsLateral subs"><img class="imgBtn" src="./img/btnInscricoes.png" alt="">Subscriptions</button>
+            <div class="div_aside div1"></div>
+            <div class="Quadrante1">
+                <button class="btnsLateral lib"><img class="imgBtn" src="./img/btnBiblioteca.png" alt="">Library</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnHistory.png" alt="">History</button>
+            </div>
+            <div class="div_aside"></div>
+            <div class="Quadrante2">
+                <p>Sign in to like videos,<br> comment, and subscribe.</p>
+                <button class="btnSign_in"><img class="" src="./img/foto_sign_in.png" alt="foto do usuário"> Sign in</button>
+            </div>
+            <div class="div_aside div3"></div>
+            <div class="Quadrante3">
+                <h2 class="subTitulosMenu">Explore</h2>
+                <button class="btnsLateral" ><img class="imgBtn" src="./img/btnTrending.png" alt="">Trending</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnMusic.png" alt="">Music</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnMovies.png" alt="">Movies</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnLive.png" alt="">Live</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnGaming.png" alt="">Gaming</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnNews.png" alt="">News</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnSports.png" alt="">Sports</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnLearning.png" alt="">Learning</button>
+            </div>
+            <div class="div_aside"></div>
+                <button class="btnsLateral btnChannel"><img class="imgBtn" src="./img/btnChannels.png" alt="">Browse Channels</button>
+            <div class="div_aside"></div>
+            <div class="Quadrante4">
+                <h2 class="subTitulosMenu">More from Youtube</h2>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnYoutubePremium.png" alt="">Youtube Premium</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnYoutubeMusic.png" alt="">Youtube Music</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnYoutubeKids.png" alt="">Youtube Kids</button>
+            </div>
+            <div class="div_aside"></div>
+            <div class="Quadrante5">
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnSettings.png" alt="">Settings</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnReport_History.png" alt="">Report History</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnHelp.png" alt="">Help</button>
+                <button class="btnsLateral"><img class="imgBtn" src="./img/btnSendFeedback.png" alt="">Send feedback</button>
+            </div>
+            <div class="div_aside"></div>
+                <h1 class="termos pt1">About Press Copyright <br> Contact us Creators<br> Advertise Developers</h1>
+                <h1 class="termos pt2">Terms Privacy Policy & Safety<br>How YouTube works<br>Test new features</h1>
+        </aside>
+        <section class="sectionPrincipal">
+        <nav>
+            <Button class="btnNav btnAll">All</Button>
+            <Button class="btnNav">Music</Button>
+            <Button class="btnNav">Chill-out Music</Button>
+            <Button class="btnNav">Live</Button>
+            <Button class="btnNav">Gaming</Button>
+            <Button class="btnNav">Computer Computing</Button>
+            <Button class="btnNav">Deep House</Button>
+            <Button class="btnNav btnJazz">Jazz</Button>
+            <Button class="btnNav btnPiano">Piano</Button>
+            <Button class="btnNav btnComedy">Comedy</Button>
+            <Button class="btnNav btnAction">Action-adventure games</Button>
+            <Button class="btnNav btnCars">Cars</Button>
+            <Button class="btnNav btnStrategy">Strategy video games</Button>
+            <Button class="btnNav btnLessons">Lessons</Button>
+            <Button class="btnNav btnRecently">Recently Uploaded</Button>
+            <Button class="btnNav seta"><img src="./img/setaDireita.png" alt=""></Button>
+        </nav>
+        <section class="sectionSecundaria">
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxVideo">
+                <img src="./img/fts_video/foto1.jpg" alt="">
+                <div class="divisaobox">
+                    <img src="./img/fts_perfil/bart.jpg" alt="">
+                    <div class="boxTexto">
+                        <h1>Chill Drive - Lofi hip hop mix ~ Stress Relief,Relaxing Music</h1>
+                        <div class="divVerificado">
+                        <h3>chilli Music <img src="./img/verificado.png" alt=""></h3>
+                        </div>
+                        <div class="txtVisu">
+                            <p>7.2M views</p>
+                            <img class="ponto" src="./img/ponto.png" alt="">
+                            <p> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+    </article>
+</body>
+</html>

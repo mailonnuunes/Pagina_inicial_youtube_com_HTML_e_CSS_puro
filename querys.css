@@ -1,0 +1,49 @@
+@media screen and (max-width: 1612px){
+    .sectionSecundaria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .btnAction,.btnStrategy,.btnRecently{
+        display: none;
+    }
+    .boxVideo{
+        width: 360px;
+
+    }
+}
+@media screen and (max-width: 1319px){
+
+    .sectionSecundaria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .btnLessons{
+        display: none;
+    }
+    .btnCars{
+        display: none;
+    }
+    .btnComedy{ 
+        display: none;
+    }
+    .btnPiano{
+        display: none;
+    }
+}
+@media screen and (max-width: 1021px){
+    .btnJazz{
+        display: none;
+    }
+    .menuMeio input{
+        width: 28.229vw;
+    }
+    
+}
+@media screen and (max-width: 905px){
+    .sectionSecundaria{
+        grid-template-columns: 1fr;
+        margin: 35px 25%
+    }
+    .sectionPrincipal > nav{
+        display: none;
+    }
+}
